@@ -10,12 +10,12 @@ git clone https://github.com/zhangxuepeng-worker/review_study.git
 cd review_study
 ```
 ### 代码conmmit规范
-安装配置参照 *https://juejin.cn/post/6866055354686373902
+> 安装配置参照 https://juejin.cn/post/6866055354686373902
 ```
-git commit -m "build(初始化): 初始化项目添加commit log 限制"
+git cz
 ```
-|--|--|
 |类型|解释|
+|--|--|
 |build |	主要目的是修改项目构建系统(例如 glup，webpack，rollup 的配置等)的提交|
 |ci |	主要目的是修改项目继续集成流程(例如 Travis，Jenkins，GitLab CI，Circle等)的提交|
 |docs |	文档更新|
